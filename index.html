@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Резюме</title>
+    <style>
+        body {
+            background-color: #f19478;
+        }
+    </style>
+</head>
+<body >
+    <h1 style="text-align: center;">Резюме</h1> 
+    <div class="Osnova">
+            <div class="Name">
+            <h2><span id="FIO"></span> <br> 
+                Студент группы АДБ 18-08
+            </h2>
+
+            <div>
+                <img src="bibip.jpg" width="400" height="400" class="picture1">           
+            </div>
+
+            <div class="FIOButton"><p><b>Введите новые инициалы:</b><br>
+                <input type="text" value="" id="txt">
+                <button class="buton" type="button" onclick="rename()">Смена фамилии</button>
+            </div>
+        </div>
+
+        <div class="Text" id="RndText">
+            <p><b>Кратко о себе:</b><br>
+        </div>
+
+        <div>
+            <img src="lyalyalya.jpg"  class="picture">           
+        </div>
+        
+        <div class= "Skills" id="Navic">
+            <p><b>Добавить нечего, всё самое важное указано на фотографии выше.СtпhаAсnиkбsо!</b><br>
+                <p>Хотяяя....<br>
+                    <p><b>Выезжаю в Вуз за вас:</b><br> <p>- На лекции - 100 руб<br> <p>-На семы/лабы - 300 руб<br>
+                <p>- На зачет/экзамен - тыща руб<br> <p>- Сделать кальян - 1500 руб<br>
+
+        </div>
+
+        <div class="Ramka">
+            <p><b> Изменить цвет фона внутри рамки</b><br>
+            <button type="button" onclick="Rnd()" style="font-size : 15px; width: 25%; 
+            height: 25px;background-color: rgb(98, 177, 98); " >Рандом</button>
+        </div>
+
+        <div class="color-panel">
+            <div id="blue" data-color="#b3e5fc" onclick="changeColor('blue')"> </div>
+            <div id="red" data-color="#ffcdd2" onclick="changeColor('red')"> </div>
+            <div id="purple" data-color="#b39ddb" onclick="changeColor('purple')"> </div>
+            <div id="green" data-color="#c5e1a5" onclick="changeColor('green')"> </div>
+            <div id="orange" data-color="#ffcc80" onclick="changeColor('orange')"> </div>
+        </div>
+
+    </div>
+        <script src="script1.js"></script>
+</body>
+</html>
