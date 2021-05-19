@@ -46,6 +46,10 @@ h1{
     border-radius: 10px 10px 10px 10px;
 }
 
+.Skills:hover{/*Изменение цвета текста при наведении*/
+    color:rgb(165, 125, 15);
+}
+
 .Ramka{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
